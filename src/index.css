@@ -16,6 +16,8 @@ ul{
   list-style: none;
 }
 
+/* header css */
+
 header {
   display: flex;
   justify-content: space-between;
@@ -31,8 +33,43 @@ header ul{
 
 header ul li a{
   text-decoration: none;
+  color: black;
+}
+
+header ul li a .active{
+  color: var(--light-blue);
 }
 
 header ul li a:hover{
   border-bottom: 1px solid var(--light-blue);
+}
+
+/* main css */
+
+main .content{
+  text-align: center;
+  background-color: black;
+  padding-block:30px;
+  color: rgb(255, 255, 255);
+}
+
+main .cards{
+  background-color: var(--light-blue);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px 20%;
+  color: white;
+}
+
+main .cards .card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+main .cards .card img{
+  width: 40px;
+  height: 50px;
+  padding: 5%;
 }

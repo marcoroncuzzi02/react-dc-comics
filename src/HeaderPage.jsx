@@ -2,10 +2,10 @@ const HeaderPage = () =>{
     return(
         <header>
             <figure>
-                <img src="public\img\dc-logo.png" alt="" />
+                <img src="img\dc-logo.png" alt="" />
             </figure>
             <ul>
-                <li><a href="">CHARACTER</a></li>
+                <li><a className="active" href="">CHARACTER</a></li>
                 <li><a href="">COMICS</a></li>
                 <li><a href="">MOVIES</a></li>
                 <li><a href="">TV</a></li>
