@@ -1,4 +1,4 @@
-// import Card from "./Card.jsx"
+import Card from "./Card.jsx"
 
 const MainPage = () =>{
     return(
@@ -7,9 +7,9 @@ const MainPage = () =>{
                 <button className="btn">current series</button>
             </div>
 
-            {/* <div className="content">
+            <div className="content">
                 <Card/>
-            </div> */}
+            </div>
 
             <div className="cards">
                 <div className="card">

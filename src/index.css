@@ -65,7 +65,12 @@ main .content{
   text-align: center;
   background-color: black;
   padding-block:30px;
-  color: rgb(255, 255, 255);
+  color: rgb(255, 255, 255); 
+  padding-inline: 20%;
+}
+
+main .content img{
+  width: 100px;
 }
 
 main .cards{
