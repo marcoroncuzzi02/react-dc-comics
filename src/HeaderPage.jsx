@@ -9,7 +9,6 @@ const links= [
     {id: 8, title:"FANS"},
     {id: 9, title:"NEWS"},
     {id: 10, title:"SHOP"},
-
 ]
 
 const HeaderPage = () =>{

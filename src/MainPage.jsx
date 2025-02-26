@@ -1,8 +1,15 @@
+// import Card from "./Card.jsx"
+
 const MainPage = () =>{
     return(
         <main>
+            <div className="jumbotron">
+                <button className="btn">current series</button>
+            </div>
 
-            <div className="content">CONTENT GOES HERE</div>
+            {/* <div className="content">
+                <Card/>
+            </div> */}
 
             <div className="cards">
                 <div className="card">
